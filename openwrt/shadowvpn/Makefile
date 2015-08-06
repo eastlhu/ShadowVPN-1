@@ -49,7 +49,6 @@ define Package/ShadowVPN/install
 	$(INSTALL_CONF) $(PKG_BUILD_DIR)/samples/client.conf $(1)/etc/shadowvpn/client.conf
 	$(INSTALL_CONF) $(PKG_BUILD_DIR)/samples/client_up.sh $(1)/etc/shadowvpn/client_up.sh
 	$(INSTALL_CONF) $(PKG_BUILD_DIR)/samples/client_down.sh $(1)/etc/shadowvpn/client_down.sh
-	$(INSTALL_CONF) $(PKG_BUILD_DIR)/samples/30-shadowvpn $(1)/etc/hotplug.d/iface/30-shadowvpn
 	$(INSTALL_BIN) ./files/shadowvpn.init $(1)/etc/init.d/shadowvpn
 	$(INSTALL_DIR) $(1)/usr/bin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/src/shadowvpn $(1)/usr/bin
