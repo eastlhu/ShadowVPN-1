@@ -4,7 +4,7 @@ PKG_NAME:=ShadowVPN
 PKG_VERSION:=0.1.6
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
-PKG_SOURCE_URL:=https://github.com/clowwindy/ShadowVPN/releases/download/$(PKG_VERSION)
+PKG_SOURCE_URL:=https://github.com/living42/ShadowVPN/releases/download/$(PKG_VERSION)
 PKG_SOURCE:=shadowvpn-$(PKG_VERSION).tar.gz
 
 PKG_MAINTAINER:=clowwindy <clowwindy42@gmail.com>
